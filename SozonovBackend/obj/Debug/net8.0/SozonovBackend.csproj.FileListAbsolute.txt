@@ -1,0 +1,6 @@
+E:\Work\Work\Szonov\SozonovBackend\obj\Debug\net8.0\SozonovBackend.csproj.AssemblyReference.cache
+E:\Work\Work\Szonov\SozonovBackend\obj\Debug\net8.0\SozonovBackend.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\Work\Szonov\SozonovBackend\obj\Debug\net8.0\SozonovBackend.AssemblyInfoInputs.cache
+E:\Work\Work\Szonov\SozonovBackend\obj\Debug\net8.0\SozonovBackend.AssemblyInfo.cs
+E:\Work\Work\Szonov\SozonovBackend\obj\Debug\net8.0\SozonovBackend.csproj.CoreCompileInputs.cache
+E:\Work\Work\Szonov\SozonovBackend\obj\Debug\net8.0\SozonovBackend.MvcApplicationPartsAssemblyInfo.cache
