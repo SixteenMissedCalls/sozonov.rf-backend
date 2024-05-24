@@ -1,31 +1,27 @@
-﻿{
-  "$schema": "http://json.schemastore.org/launchsettings.json",
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:40191",
-      "sslPort": 44373
-    }
-  },
+{
   "profiles": {
     "http": {
       "commandName": "Project",
-      "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:5091",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5091"
     },
     "https": {
       "commandName": "Project",
-      "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7276;http://localhost:5091",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MailSettings:SenderMail": "nasibullin1410@bk.ru",
+        "MailSettings:Password": "rEw7hMfcirUvtQaKaTas",
+        "DataBaseSettings:ConnectionString": "Host=6161000775e7.vps.myjino.ru;Port=5432;Database=tester;Username=mynewuser;Password=mynewuser",
+        "AuthenticationService:Url": "http://localhost:4000",
+        "JwtSettings:Key": "6b1ff97964423d2d77c1f00e957c4d40c1966bbb42d3c612214d52e8a441ff9a"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7276;http://localhost:5091"
     },
     "IIS Express": {
       "commandName": "IISExpress",
@@ -33,6 +29,15 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:40191",
+      "sslPort": 44373
     }
   }
 }

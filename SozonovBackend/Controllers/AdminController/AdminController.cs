@@ -17,7 +17,7 @@ namespace SozonovBackend.Controllers.AdminController
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login([FromBody] LoginJson login)
+        public async Task<IActionResult> Login([FromBody] LoginRequest login)
         {
             _logger.LogInformation($"Api метод Login, контроллера {nameof(AdminController)} начал свою работу," +
                 $" входные данные: Login: {login.Login}, Password: {login.Password}");
@@ -31,7 +31,7 @@ namespace SozonovBackend.Controllers.AdminController
         }
 
         [HttpPost]
-        public async Task<IActionResult> Password([FromBody] LoginJson login)
+        public async Task<IActionResult> Password([FromBody] LoginRequest login)
         {
             _logger.LogInformation($"Api метод Password, контроллера {nameof(AdminController)} начал свою работу," +
                 $" входные данные: Login: {login.Login}, Password: {login.Password}");

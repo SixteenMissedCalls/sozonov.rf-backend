@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SozonovBackend", "SozonovBackend.csproj", "{E547D905-EB4B-4729-9552-D9F81A4D1FC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SozonovBackend", "SozonovBackend.csproj", "{E547D905-EB4B-4729-9552-D9F81A4D1FC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{3EC4BD26-5883-45D4-ADDF-4A99D028E34E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "..\Domain\Domain.csproj", "{3EC4BD26-5883-45D4-ADDF-4A99D028E34E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "..\..\Authentication Service\WebApi.csproj", "{B9859955-0BB2-442A-9157-D4573F3E4D96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3EC4BD26-5883-45D4-ADDF-4A99D028E34E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EC4BD26-5883-45D4-ADDF-4A99D028E34E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EC4BD26-5883-45D4-ADDF-4A99D028E34E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9859955-0BB2-442A-9157-D4573F3E4D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9859955-0BB2-442A-9157-D4573F3E4D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9859955-0BB2-442A-9157-D4573F3E4D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9859955-0BB2-442A-9157-D4573F3E4D96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
